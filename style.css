@@ -292,9 +292,7 @@ color: rgb(96, 96, 234);
 .onz {
        font-size: 0em;
    } 
-   .bla {
-       justify-content: center;
-   }
+   
    
    .sect_1 {
        height: 2100px;
@@ -312,14 +310,149 @@ color: rgb(96, 96, 234);
        margin-left: 20px;
    }
 }
+
+
+
+@media screen and (max-width: 640px) {
+    
+    .bla {
+        margin-left: 50px;
+        margin-top: 50px;
+    } 
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .yellow {flex-direction: column;
+             margin-left: 0px;
+             width: 50px;
+    }
+    .red {
+        flex-direction: column;
+        margin-left: 0px;
+        width: 65px;
+    }
+}
+@media screen and (max-width: 210px) {
+    .rech { 
+          background-color: #FFC107;
+    height: 0px;
+    margin-top: 0px;
+    display: none;
+    }
+}
+
+
+
 @media screen and (max-width: 900px) {
     .sect_2 {
         flex-direction: column;
         margin-left: 0px;
         margin-right: 0px;
+
     }
     .im {
         flex-direction: column;
     }
    
+}
+
+@media screen and (max-width: 504px) {
+    .sect_2 {
+        
+        margin-top: 300px;
+    }
+    
+} 
+
+
+
+@media screen and (max-width: 900px) {
+    
+    .sect_3 {
+       height: 1600px; 
+    }
+}
+@media screen and (max-width: 470px) {
+    .face-grp {
+        margin-left: 0px;
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 228px) {
+    
+    
+    .card-1 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 800px){
+.sec-4 {
+    height: 600px;
+}
+    
+}
+
+
+
+@media screen and (max-width: 900px) {
+    
+    .sec-4-1 {
+        font-size: 2em;
+    }
+    .sec-4-2 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 878px) {
+    .sec-5 {
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+    .sec6{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .sec-6-2 {
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+}
+
+@media screen and (max-width: 596px) {
+    
+    .sect-7 {
+        height: 600px;
+    }
+}
+@media screen and (max-width: 596px) {
+    .sec7-1 {
+        
+    font-size: 15px;
+    margin: 0px 0px 8px;
+   padding: 16px; 
+    }
+    .sec7-2 {
+        font-size: 15px;
+    margin: 0px 0px 16px;
+    }
+}
+@media screen and (max-width: 208px) {
+    
+    .face-grp2 {
+        flex-direction: column;
+    }
 }
